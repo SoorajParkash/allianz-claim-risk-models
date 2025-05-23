@@ -1,16 +1,16 @@
 Machine learning solutions for Allianz Benelux SA: customer segmentation using K-Means and PCA; predictive modeling with supervised learning, feature engineering, data preprocessing, model evaluation, and visualization.
+
 # Allianz Insurance Analytics: Customer Segmentation & Predictive Modeling
 
-Welcome to the Allianz Insurance Analytics repository—a showcase of advanced machine learning applications in the insurance industry. This project was developed as a case study for Allianz Benelux SA and demonstrates how data-driven approaches can unlock actionable insights for risk management, customer segmentation, and operational excellence.
+Welcome to the Allianz Insurance Analytics repository—a showcase of advanced machine learning applications in the insurance industry. Developed as a case study for Allianz Benelux SA, this project demonstrates how data-driven techniques can deliver actionable insights for risk management, customer segmentation, and claim risk prediction.
 
 ---
 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Business Value](#business-value)
-- [Methodology](#methodology)
-- [Key Results & Visualizations](#key-results--visualizations)
+- [Model 1: Customer Segmentation (Clustering)](#model-1-customer-segmentation-clustering)
+- [Model 2: Predictive Modeling (Supervised Learning)](#model-2-predictive-modeling-supervised-learning)
 - [How to Use](#how-to-use)
 - [Intended Audience](#intended-audience)
 - [Contact](#contact)
@@ -19,99 +19,86 @@ Welcome to the Allianz Insurance Analytics repository—a showcase of advanced m
 
 ## Project Overview
 
-Insurers today face intense competition and rapidly evolving risks. Making sense of vast customer and claim data is essential to optimize profitability, enhance customer satisfaction, and maintain regulatory compliance.  
+The insurance industry faces unprecedented competition and complex risks. Harnessing data science allows insurers like Allianz Benelux SA to:
+
+- Optimize pricing and product design
+- Enhance customer targeting and retention
+- Flag high-risk claims early for proactive management
+- Make informed, strategic decisions based on actionable analytics
+
 This repository brings together two robust machine learning solutions:
 
-1. **Customer Segmentation (Clustering Model):**  
-   Unsupervised learning is used to divide insurance customers into distinct segments based on claim behavior and risk attributes. These segments empower the business to personalize products, target interventions, and refine pricing strategies.
-
-2. **Predictive Modeling (Supervised Learning):**  
-   Supervised machine learning algorithms predict the risk associated with incoming claims at an individual level. This enables Allianz to proactively identify high-risk cases, improve underwriting, and reduce losses through timely interventions.
-
 ---
 
-## Business Value
+## Model 1: Customer Segmentation (Clustering)
 
-By combining customer segmentation with predictive modeling, Allianz can:
-- **Optimize Pricing:** Price products more competitively by understanding the true risk profile of each segment.
-- **Target Retention Strategies:** Focus retention efforts on profitable and at-risk customer groups.
-- **Enhance Risk Management:** Flag and investigate high-risk claims early, reducing losses and improving claims management efficiency.
-- **Improve Operational Decision-Making:** Use actionable analytics to inform business strategy and resource allocation.
+### Objective
+Segment insurance customers into distinct groups based on risk and claim characteristics, enabling tailored business strategies and optimized resource allocation.
 
----
+### Techniques Used
+- Data preprocessing: Handling missing values, encoding, scaling
+- Correlation-based feature selection
+- Dimensionality reduction with PCA
+- K-Means clustering
+- Cluster evaluation with silhouette score
+- Cluster profiling for actionable business insights
 
-## Methodology
+### Key Results & Visualizations
 
-### Customer Segmentation (Clustering Model)
-- **Data Preprocessing:** Addressed missing values, encoded categorical variables, and standardized features.
-- **Feature Selection:** Used correlation analysis to drop redundant variables and retain the most informative predictors.
-- **Dimensionality Reduction:** Employed Principal Component Analysis (PCA) for visualization and to capture key variance in the data.
-- **K-Means Clustering:** Segmented customers into groups with similar claim and financial behavior.
-- **Cluster Evaluation:** Utilized silhouette scores and visual inspection to assess clustering quality.
-- **Cluster Profiling:** Analyzed financial and risk characteristics of each segment to guide business strategy.
-
----
-
-## Key Results & Visualizations
-
-Here are the principal findings and insights from the clustering model, with each visual accompanied by a clear business interpretation.
-
----
-
-### 1. Customer Segmentation Visualization
+#### 1. Customer Segmentation Visualization
 
 ![Customer Segmentation (PCA + KMeans Clustering)](https://github.com/SoorajParkash/allianz-claim-risk-models/blob/main/download%20(1).png?raw=true)
+*Scatter plot of customer clusters in PCA-reduced space, showing distinct groups for targeted action.*
 
-*This scatter plot shows customer groups identified by K-Means clustering in two principal components derived from PCA. Each color-coded cluster represents customers with similar claim behavior and risk characteristics, enabling targeted business actions.*
-
----
-
-### 2. Cluster Profile Summary Table
+#### 2. Cluster Profile Summary Table
 
 ![Cluster Profiles Table](https://github.com/SoorajParkash/allianz-claim-risk-models/blob/main/Table%20(1).png?raw=true)
+*Table comparing segment size, mean claim duration, annuity, and payout—essential for business strategy.*
 
-*This table summarizes each cluster's size, average claim duration, average annuity, and mean payout per claim. These metrics allow Allianz to compare segments, assess profitability, and tailor product offerings.*
-
----
-
-### 3. Claim Duration by Cluster
+#### 3. Claim Duration by Cluster
 
 ![Claim Duration Distribution by Cluster](https://github.com/SoorajParkash/allianz-claim-risk-models/blob/main/Claim_Duration_By_Cluster_Colored.png?raw=true)
+*Boxplot analysis of claim durations across segments, revealing risk differences.*
 
-*Boxplot analysis reveals the distribution of claim durations for each cluster. Significant differences between clusters indicate that claim duration is a key differentiator for risk profiling.*
-
----
-
-### 4. Annuity vs. Duration by Cluster
+#### 4. Annuity vs. Duration by Cluster
 
 ![Annuity vs. Duration by Cluster](https://github.com/SoorajParkash/allianz-claim-risk-models/blob/main/Annuity_vs_Duration_by_Cluster_with_Centroids%20(1).png?raw=true)
+*Scatter plot mapping annuity against claim duration, colored by cluster with centroids highlighted.*
 
-*This scatter plot maps annual annuity against claim duration for each customer, colored by cluster, with cluster centroids highlighted. It uncovers the financial and risk dynamics of each group, supporting targeted risk and pricing strategies.*
-
----
-
-### 5. Cluster Risk Profile: Mean Duration and Annuity
+#### 5. Cluster Risk Profile: Mean Duration and Annuity
 
 ![Cluster Risk Profile](https://github.com/SoorajParkash/allianz-claim-risk-models/blob/main/Cluster_Risk_Profile_Dual_Axis_OneLegend.png?raw=true)
+*Bar chart for average claim duration and annuity by segment.*
 
-*The dual-axis bar chart compares the average claim duration and mean annuity of each cluster. This comprehensive risk profile helps Allianz to understand the trade-offs between risk (duration) and revenue (annuity) across segments.*
+#### 6. Mean Payout per Claim by Cluster
+
+![Mean Payout per Claim by Cluster](https://github.com/SoorajParkash/allianz-claim-risk-models/blob/main/Cluster_Mean_Payout_per_Claim_Dynamic.png?raw=true)
+*Mean payout per claim by cluster, highlighting which segments drive costs.*
 
 ---
 
-### 6. Mean Payout per Claim by Cluster
+## Model 2: Predictive Modeling (Supervised Learning)
 
-![Mean Payout per Claim by Cluster](https://github.com/SoorajParkash/allianz-claim-risk-models/blob/main/Cluster_Mean_Payout_per_Claim_Dynamic.png?raw=true)
+### Objective
+Predict insurance claim risk at the individual level, empowering Allianz to proactively identify and manage high-risk claims.
 
-*Bar chart showing the average payout per claim for each cluster. This visualization makes it easy to spot which segments drive the most claim costs, helping to focus loss mitigation efforts.*
+### Techniques Used
+- Data preprocessing and feature engineering
+- Model selection (Logistic Regression, Random Forest, etc.)
+- Hyperparameter tuning
+- Model evaluation (accuracy, F1-score, confusion matrix)
+- Visualization of results and feature importance
+
+### (Add Visuals Here)
+> _Add confusion matrix, ROC curve, or feature importance plots for your predictive model as you complete them, following the same style as above._
 
 ---
 
 ## How to Use
-
-To reproduce or build upon this analysis:
 
 1. **Clone the repository and install dependencies:**
    ```bash
    git clone https://github.com/yourusername/allianz-insurance-analytics.git
    cd allianz-insurance-analytics
    pip install pandas numpy scikit-learn matplotlib seaborn
+
