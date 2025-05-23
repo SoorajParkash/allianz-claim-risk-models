@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/958b0c48-3698-4b0b-8974-25c2b20d4030)# allianz-claim-risk-models
 Machine learning solutions for Allianz Benelux SA: customer segmentation using K-Means and PCA; predictive modeling with supervised learning, feature engineering, data preprocessing, model evaluation, and visualization.
 # Allianz Insurance Analytics: Customer Segmentation & Predictive Modeling
 
