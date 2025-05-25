@@ -46,32 +46,32 @@ Segment insurance customers into distinct groups based on risk and claim charact
 
 #### 1. Customer Segmentation Visualization
 
-![Customer Segmentation (PCA + KMeans Clustering)](https://github.com/SoorajParkash/allianz-claim-risk-models/blob/main/download%20(1).png?raw=true)
+![Customer Segmentation (PCA + KMeans Clustering)](images/download (1).png)
 *Scatter plot of customer clusters in PCA-reduced space, showing distinct groups for targeted action.*
 
 #### 2. Cluster Profile Summary Table
 
-![Cluster Profiles Table](https://github.com/SoorajParkash/allianz-claim-risk-models/blob/main/Table%20(1).png?raw=true)
+![Cluster Profiles Table](images/Table (1).png)
 *Table comparing segment size, mean claim duration, annuity, and payout—essential for business strategy.*
 
 #### 3. Claim Duration by Cluster
 
-![Claim Duration Distribution by Cluster](https://github.com/SoorajParkash/allianz-claim-risk-models/blob/main/Claim_Duration_By_Cluster_Colored.png?raw=true)
+![Claim Duration Distribution by Cluster](images/Claim_Duration_By_Cluster_Colored.png)
 *Boxplot analysis of claim durations across segments, revealing risk differences.*
 
 #### 4. Annuity vs. Duration by Cluster
 
-![Annuity vs. Duration by Cluster](https://github.com/SoorajParkash/allianz-claim-risk-models/blob/main/Annuity_vs_Duration_by_Cluster_with_Centroids%20(1).png?raw=true)
+![Annuity vs. Duration by Cluster](images/Annuity_vs_Duration_by_Cluster_with_Centroids (1).png)
 *Scatter plot mapping annuity against claim duration, colored by cluster with centroids highlighted.*
 
 #### 5. Cluster Risk Profile: Mean Duration and Annuity
 
-![Cluster Risk Profile](https://github.com/SoorajParkash/allianz-claim-risk-models/blob/main/Cluster_Risk_Profile_Dual_Axis_OneLegend.png?raw=true)
+![Cluster Risk Profile](images/Cluster_Risk_Profile_Dual_Axis_OneLegend.png)
 *Bar chart for average claim duration and annuity by segment.*
 
 #### 6. Mean Payout per Claim by Cluster
 
-![Mean Payout per Claim by Cluster](https://github.com/SoorajParkash/allianz-claim-risk-models/blob/main/Cluster_Mean_Payout_per_Claim_Dynamic.png?raw=true)
+![Mean Payout per Claim by Cluster](images/Cluster_Mean_Payout_per_Claim_Dynamic.png)
 *Mean payout per claim by cluster, highlighting which segments drive costs.*
 
 ---
@@ -88,6 +88,7 @@ Predict insurance claim risk at the individual level, empowering Allianz to proa
 - Model evaluation (accuracy, F1-score, confusion matrix)
 - Visualization of results and feature importance
 
+---
 
 ## License
 
@@ -103,6 +104,8 @@ The Apache License 2.0 is a permissive license that allows you to:
 For more details about the terms and conditions, please refer to the [LICENSE](LICENSE) file.
 
 Last updated: 2025-05-25 12:03:17 UTC
+
+---
 
 ## How to Use
 
