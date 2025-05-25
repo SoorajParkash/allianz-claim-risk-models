@@ -35,7 +35,7 @@ Prior to modeling, only the `Contract_number` and `Postalcode` columns are dropp
 
 ## Project Overview
 
-Allianz Benelux SA faced significant P&L losses as long-duration disability insurance claims began exceeding collected premiums. To address this, we analyzed 5,370 historical claims linked to 4,760 policies, identifying key risk factors such as age, gender, district, and broker. We built a Random Forest model (R² = 0.99) to predict claim durations and applied K-Means clustering with PCA to segment customers into risk tiers. These insights enabled Allianz to implement risk-based premium strategies that reduce financial exposure and improve pricing fairness.
+Allianz Benelux SA faced significant P&L losses as long-duration disability insurance claims began exceeding collected premiums. To address this, we analyzed 5,370 historical claims linked to 4,760 policies, identifying key risk factors such as age, gender, district, and broker. We built a Random Forest model to predict claim durations and applied K-Means clustering with PCA to segment customers into risk tiers. These insights enabled Allianz to implement risk-based premium strategies that reduce financial exposure and improve pricing fairness.
 
 ## Model 1: Customer Segmentation (Clustering)
 
