@@ -93,7 +93,16 @@ Predict insurance claim risk at the individual level, empowering Allianz to proa
 - Hyperparameter tuning
 - Model evaluation (R2 Score on Test Set, RMSE on Test Set, Mean Absolute Error (MAE), Mean Squared Error (MSE))
 - Visualization of results and feature importance
+#### 1. Actual Durations VS Perdicted Duration
 
+![Duration VS Denisty](images/Duration_VS_Denisty.png)
+
+*Table comparing actual duration vs perdicted duration *
+#### 2. Duration VS Density
+
+![Perdicted VS Actual](images/Perdicted_VS_Actual.png)
+
+*Table comparing actual duration vs perdicted duration *
 ---
 
 ## License
