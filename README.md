@@ -91,7 +91,7 @@ Predict insurance claim risk at the individual level, empowering Allianz to proa
 - Data preprocessing and feature engineering
 - Model selection (Logistic Regression, Random Forest, etc.)
 - Hyperparameter tuning
-- Model evaluation (accuracy, F1-score, confusion matrix)
+- Model evaluation (R2 Score on Test Set, RMSE on Test Set, Mean Absolute Error (MAE), Mean Squared Error (MSE))
 - Visualization of results and feature importance
 
 ---
