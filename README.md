@@ -85,7 +85,7 @@ Segment insurance customers into distinct groups based on risk and claim charact
 ## Model 2: Predictive Modeling (Supervised Learning)
 
 ### Objective
-Predict insurance claim risk at the individual level, empowering Allianz to proactively identify and manage high-risk claims.
+Predict Disability insurance claim duration at the individual level, empowering Allianz to proactively identify and manage high-risk claims.
 
 ### Techniques Used
 - Data preprocessing and feature engineering
