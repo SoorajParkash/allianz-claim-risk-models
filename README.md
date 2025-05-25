@@ -35,16 +35,7 @@ Prior to modeling, only the `Contract_number` and `Postalcode` columns are dropp
 
 ## Project Overview
 
-The insurance industry faces unprecedented competition and complex risks. Harnessing data science allows insurers like Allianz Benelux SA to:
-
-- Segment customer into different clusters to indentify risky and non-risky segments
-- Perdict disability duration of customers to customized premiums 
-- Flag high-risk claims early for proactive management
-- Make informed, strategic decisions based on actionable analytics
-
-This repository brings together two robust machine learning solutions:
-
----
+Allianz Benelux SA faced significant P&L losses as long-duration disability insurance claims began exceeding collected premiums. To address this, we analyzed 5,370 historical claims linked to 4,760 policies, identifying key risk factors such as age, gender, district, and broker. We built a Random Forest model (R² = 0.99) to predict claim durations and applied K-Means clustering with PCA to segment customers into risk tiers. These insights enabled Allianz to implement risk-based premium strategies that reduce financial exposure and improve pricing fairness.
 
 ## Model 1: Customer Segmentation (Clustering)
 
