@@ -103,6 +103,7 @@ Predict insurance claim risk at the individual level, empowering Allianz to proa
 ![Perdicted VS Actual](images/Perdicted_VS_Actual.png)
 
 *Table comparing actual duration vs perdicted duration *
+
 ---
 
 ## License
