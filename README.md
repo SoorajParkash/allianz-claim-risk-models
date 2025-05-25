@@ -37,8 +37,8 @@ Prior to modeling, only the `Contract_number` and `Postalcode` columns are dropp
 
 The insurance industry faces unprecedented competition and complex risks. Harnessing data science allows insurers like Allianz Benelux SA to:
 
-- Optimize pricing and product design
-- Enhance customer targeting and retention
+- Segment customer into different clusters to indentify risky and non-risky segments
+- Perdict disability duration of customers to customized premiums 
 - Flag high-risk claims early for proactive management
 - Make informed, strategic decisions based on actionable analytics
 
@@ -124,7 +124,7 @@ Segment insurance customers into distinct groups based on risk and claim charact
 
 ### Objective
 
-Predict insurance claim risk at the individual level, empowering Allianz to proactively identify and manage high-risk claims.
+Predict disability duration at the individual level, empowering Allianz to proactively identify and manage high-risk claims.
 
 ### Techniques Used
 
