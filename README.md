@@ -47,31 +47,37 @@ Segment insurance customers into distinct groups based on risk and claim charact
 #### 1. Customer Segmentation Visualization
 
 ![Customer Segmentation (PCA + KMeans Clustering)](images/Clusters_Visualizations.png)
+
 *Scatter plot of customer clusters in PCA-reduced space, showing distinct groups for targeted action.*
 
 #### 2. Cluster Profile Summary Table
 
 ![Cluster Profiles Table](images/Clusters_Summary.png)
+
 *Table comparing segment size, mean claim duration, annuity, and payout—essential for business strategy.*
 
 #### 3. Claim Duration by Cluster
 
 ![Claim Duration Distribution by Cluster](images/Claim_Duration_By_Cluster_Colored.png)
+
 *Boxplot analysis of claim durations across segments, revealing risk differences.*
 
 #### 4. Annuity vs. Duration by Cluster
 
 ![Annuity vs. Duration by Cluster](images/Annuity_vs_Duration_by_Cluster_with_Centroids.png)
+
 *Scatter plot mapping annuity against claim duration, colored by cluster with centroids highlighted.*
 
 #### 5. Cluster Risk Profile: Mean Duration and Annuity
 
 ![Cluster Risk Profile](images/Cluster_Risk_Profile_Dual_Axis_OneLegend.png)
+
 *Bar chart for average claim duration and annuity by segment.*
 
 #### 6. Mean Payout per Claim by Cluster
 
 ![Mean Payout per Claim by Cluster](images/Cluster_Mean_Payout_per_Claim_Dynamic.png)
+
 *Mean payout per claim by cluster, highlighting which segments drive costs.*
 
 ---
