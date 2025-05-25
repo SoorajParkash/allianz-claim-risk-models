@@ -1,8 +1,8 @@
-Machine learning solutions for Allianz Benelux SA: customer segmentation using K-Means and PCA; predictive modeling with supervised learning, feature engineering, data preprocessing, model evaluation, and visualization.
+Machine learning solutions for Allianz Benelux SA: customer segmentation using K-Means and PCA; predictive modeling with supervised learning, feature engineering, data preprocessing, model evaluation.
 
 # Allianz Insurance Analytics: Customer Segmentation & Predictive Modeling
 
-Welcome to the Allianz Insurance Analytics repository—a showcase of advanced machine learning applications in the insurance industry. Developed as a case study for Allianz Benelux SA, this project demonstrates how data-driven techniques can deliver actionable insights for risk management, customer segmentation, and claim risk prediction.
+Welcome to the Allianz Insurance Analytics repository—a showcase of advanced machine learning applications in the insurance industry. Developed as a case study for Allianz Benelux SA, this project demonstrates the power of data science in transforming insurance operations.
 
 ---
 
@@ -12,10 +12,9 @@ Welcome to the Allianz Insurance Analytics repository—a showcase of advanced m
 - [Model 1: Customer Segmentation (Clustering)](#model-1-customer-segmentation-clustering)
 - [Model 2: Predictive Modeling (Supervised Learning)](#model-2-predictive-modeling-supervised-learning)
 - [How to Use](#how-to-use)
+- [License](#license)
 - [Intended Audience](#intended-audience)
 - [Contact](#contact)
-
----
 
 ## Project Overview
 
@@ -89,10 +88,21 @@ Predict insurance claim risk at the individual level, empowering Allianz to proa
 - Model evaluation (accuracy, F1-score, confusion matrix)
 - Visualization of results and feature importance
 
-### (Add Visuals Here)
-> _Add confusion matrix, ROC curve, or feature importance plots for your predictive model as you complete them, following the same style as above._
 
----
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+The Apache License 2.0 is a permissive license that allows you to:
+- Use the software for any purpose
+- Modify the software
+- Distribute the software
+- Sublicense the software
+- Grant a patent license
+
+For more details about the terms and conditions, please refer to the [LICENSE](LICENSE) file.
+
+Last updated: 2025-05-25 12:03:17 UTC
 
 ## How to Use
 
@@ -101,4 +111,3 @@ Predict insurance claim risk at the individual level, empowering Allianz to proa
    git clone https://github.com/yourusername/allianz-insurance-analytics.git
    cd allianz-insurance-analytics
    pip install pandas numpy scikit-learn matplotlib seaborn
-
